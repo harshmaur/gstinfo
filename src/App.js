@@ -29,18 +29,26 @@ class App extends Component {
                 <div>
                   <List disablePadding>
                     <div>
-                      <ListItem button>
-                        <Link to="/"><ListItemText primary="Home" /></Link>
-                      </ListItem>
-                      <ListItem button>
-                        <Link to="/gst-calculator"><ListItemText primary="Calculator" /></Link>
-                      </ListItem>
-                      <ListItem button>
-                        <Link to="/impact-of-gst"><ListItemText primary="Impact" /></Link>
-                      </ListItem>
-                      <ListItem button>
-                        <Link to="/gst-slabs"><ListItemText primary="Slabs" /></Link>
-                      </ListItem>
+                      <Link to="/">
+                        <ListItem button>
+                          <ListItemText primary="Home" />
+                        </ListItem>
+                      </Link>
+                      <Link to="/gst-calculator">
+                        <ListItem button>
+                          <ListItemText primary="Calculator" />
+                        </ListItem>
+                      </Link>
+                      <Link to="/impact-of-gst">
+                        <ListItem button>
+                          <ListItemText primary="Impact" />
+                        </ListItem>
+                      </Link>
+                      <Link to="/gst-slabs">
+                        <ListItem button>
+                          <ListItemText primary="Slabs" />
+                        </ListItem>
+                      </Link>
                     </div>
                   </List>
                 </div>
